@@ -70,10 +70,6 @@ Le projet est scindé en deux modules distincts :
 * Une communauté active encourage les contributions et les suggestions des utilisateurs.
 * Des améliorations et de nouvelles fonctionnalités sont régulièrement ajoutées.
 
-**Licence**
-
-Le projet est sous licence MIT, autorisant une utilisation et une modification libres.
-
 **Contributeurs**
 
 * Anouar Soufyani
@@ -83,9 +79,5 @@ Le projet est sous licence MIT, autorisant une utilisation et une modification l
 **Liens utiles**
 
 * **Dépôt GitHub du projet:** https://github.com/Anouarsoufyani/jeux_de_cartes
-
-**Conclusion**
-
-En tant que plateforme de jeux de cartes innovante, cette solution offre une expérience de divertissement en ligne de premier ordre. Sa variété de jeux, ses fonctionnalités avancées et sa communauté active en font un choix idéal pour les joueurs de tous niveaux.
 
 **N'hésitez pas à tester la plateforme et à nous faire part de vos commentaires constructifs !**
