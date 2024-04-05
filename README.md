@@ -59,7 +59,9 @@ Le projet est sous licence MIT, autorisant une utilisation et une modification l
 
 **Contributeurs**
 
-* [Liste des contributeurs]
+* Anouar Soufyani
+* Rayan Hasnaoui Mounir
+* Mustapha Lamine-Maatou
 
 **Liens utiles**
 
