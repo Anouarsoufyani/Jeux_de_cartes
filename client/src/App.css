@@ -1,0 +1,76 @@
+body {
+  background: url("background.png");
+
+}
+
+
+#root {
+  width: 100%;
+}
+
+
+.App {
+  text-align: center;
+  background: rgba(8, 8, 8, 0.5);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.homeContainer {
+  padding-top: 32vh;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.commit-card-title {
+  color: black;
+}
+
+li.filepath {
+  font-size: 13px;
+}
+
+.fullHeightContainer {
+  height: calc(100vh - 60px);
+  overflow-x: auto;
+}
+
+.card-title {
+  color: black;
+}
+
+input {
+  border: #282c34 solid;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background: rgba(8, 8, 8, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.MuiToolbar-root {
+  background: rgba(60, 20, 154, 0.816);
+}

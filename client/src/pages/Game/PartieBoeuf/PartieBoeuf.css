@@ -1,0 +1,177 @@
+body {
+    background: url("src/background.png");
+}
+
+.App {
+    flex-direction: column;
+    position: relative;
+    background: rgba(8, 8, 8, 0.4);
+}
+
+#game {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#miseEnJeu {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(12, 2, 35, 0.622);
+}
+
+.listes {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.listes:hover {
+    background: rgba(12, 2, 35, 0.622);
+    border-right: 10px solid;
+}
+
+.listes>.card {
+    width: 100px;
+    height: 100%;
+}
+
+
+#chat {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: medium;
+    background: rgba(8, 8, 8, 1);
+    /* position: sticky;
+    top: 0;
+    right: 0; */
+    display: flex;
+}
+
+#messages {
+    min-height: 80vh;
+    overflow-y: auto;
+    width: 80%;
+    border-radius: 10px;
+    background: rgb(27, 27, 27);
+}
+
+.own-message {
+    color: rgb(84, 38, 192);
+}
+
+#game_container {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.game {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hand_container {
+    max-width: 80%;
+    min-height: 20%;
+    /* display: block; */
+    font-size: medium;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* background-image: linear-gradient(to top, #050022 0%, #0c0036 100%); */
+}
+
+.hand_container>.card:hover {
+    cursor: pointer;
+    border-bottom: 5px solid;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    transition: ease-in-out 0.1s;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+}
+
+.formChat {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formChat input {
+    width: 80%;
+}
+
+footer {
+    margin: 0;
+    background: rgba(8, 8, 8, 1);
+}
+
+#statGame {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background: rgba(8, 8, 8, 1);
+    display: flex;
+}
+
+#miniStatDiv {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid;
+}
+
+#tourStatDiv {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.miniStat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* border: 1px solid black; */
+
+}

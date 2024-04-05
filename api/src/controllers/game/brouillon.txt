@@ -1,0 +1,58 @@
+BROUILLON 10 : 
+
+// const cardsTest : Card[] = [
+      //   {
+      //     identifiant: CardIdentifiers.AS,
+      //     symbole: "Coeur",
+      //     isUsable: true 
+      //   },
+      //   {
+      //     identifiant: CardIdentifiers.DEUX,
+      //     symbole: "Coeur",
+      //     isUsable: true
+      //   }];
+
+
+      // chooseCard(
+      //   {
+      //     identifiant: 4,
+      //     isUsable: true,
+      //     user: game.players[0]
+      //   }, miseEnJeu
+      // );
+
+      // chooseCard(
+      //   {
+      //     identifiant: 8,
+      //     isUsable: true,
+      //     user: game.players[1]
+      //   }, miseEnJeu
+      // );
+
+      // const addScore = async (card: Card, players: User[]) => {
+      //   const user = await DI.userRepository.findOne({
+      //     _id: card.user?._id,
+      //   })
+
+      //   let tabscore = [];
+      //   for (let i = 0; i < players.length; i++) {
+      //     tabscore.push({ id: players[i]._id, score: 0 });
+      //   }
+
+
+      //   for (let j = 0; j < players.length; j++) {
+      //     if (user) {
+      //       // DI.em.persistAndFlush(user);
+
+      //       if (tabscore[j].id == user?._id) {
+      //         tabscore[j].score++;
+      //       }
+      //       console.log(tabscore[j].id);
+      //       console.log(tabscore[j].score);
+      //     }
+      //   }
+      //   return tabscore;
+      // }
+
+
+      // console.log(addScore(await play(miseEnJeu, game), game.players));

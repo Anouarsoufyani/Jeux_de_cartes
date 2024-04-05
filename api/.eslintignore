@@ -1,0 +1,5 @@
+
+dist/*
+**/*.d.ts
+/src/types/
+node_modules/

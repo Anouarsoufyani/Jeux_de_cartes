@@ -1,0 +1,15 @@
+export const CARD_POWERS = {
+    AS: 14,
+    K: 13,
+    Q: 12,
+    V: 11,
+    DIX: 10,
+    NEUF: 9,
+    HUIT: 8,
+    SEPT: 7,
+    SIX: 6,
+    CINQ: 5,
+    QUATRE: 4,
+    TROIS: 3,
+    DEUX: 2,
+};

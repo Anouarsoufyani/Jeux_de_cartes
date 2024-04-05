@@ -1,0 +1,237 @@
+body {
+    background: url("src/background.png");
+
+}
+
+a {
+    color: white;
+}
+
+.App {
+    flex-direction: column;
+    position: relative;
+    background: rgba(8, 8, 8, 0.4);
+}
+
+#game {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#chat {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: medium;
+    background: rgba(8, 8, 8, 1);
+    /* position: sticky;
+    top: 0;
+    right: 0; */
+    display: flex;
+}
+
+#messages {
+    min-height: 80vh;
+    overflow-y: auto;
+    width: 80%;
+    border-radius: 10px;
+    background: rgb(27, 27, 27);
+}
+
+.own-message {
+    color: rgb(84, 38, 192);
+}
+
+#game_container {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand_container {
+    min-width: 80%;
+    min-height: 30vh;
+    display: block;
+    font-size: medium;
+    /* background-image: linear-gradient(to top, #050022 0%, #0c0036 100%); */
+}
+
+.hand_container>.card:hover {
+    cursor: pointer;
+    border-bottom: 5px solid;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+}
+
+#miseEnJeu {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(12, 2, 35, 0.622);
+    border: 5px solid black;
+}
+
+.listes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listes>.card {
+    width: 100px;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+}
+
+.carteGagnante {
+    width: 100px;
+}
+
+.formChat {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formChat input {
+    width: 80%;
+}
+
+footer {
+    margin: 0;
+    background: rgba(8, 8, 8, 1);
+}
+
+#statGame {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background: rgba(8, 8, 8, 1);
+    display: flex;
+}
+
+#miniStatDiv {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 1px solid;
+}
+
+#tourStatDiv {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.miniStat {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: left;
+    /* border: 1px solid black; */
+
+}
+
+#goat_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(12, 2, 35, 0.622);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 15px 7px rgba(0, 0, 0, 0.83);
+    border: 1px solid;
+}
+
+#autres {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.regles {
+    color: wheat;
+
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.regles:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.nbjoueursdiv {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reglesDujeu {
+    position: absolute;
+    color: wheat;
+    top: 10vh;
+    font-size: large;
+    border: 10px solid rgba(12, 2, 35, 0.95);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.95);
+    width: 60%;
+    height: 80vh;
+    z-index: 999;
+    transition: ease-in-out 0.3s;
+}
+
+.reglesOuverts {
+    opacity: 1;
+    display: block;
+}
+
+.reglesFermes {
+    display: none;
+    opacity: 0;
+}
