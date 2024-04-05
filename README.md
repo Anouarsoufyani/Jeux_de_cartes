@@ -28,6 +28,23 @@ Le projet est scindé en deux modules distincts :
 * **Module API (dossier `api`):** Contient le code du serveur, responsable de la logique du jeu, de la gestion des données et de la communication avec le client.
 * **Module Client (dossier `client`):** Contient le code de l'interface utilisateur, responsable de l'affichage et de l'interaction avec l'utilisateur.
 
+**Lancement du serveur**
+
+1. Ouvrir un terminal dans le dossier `api`.
+2. Installer les dépendances avec la commande `yarn` ou `yarn install`.
+3. Si Yarn n'est pas installé, utiliser `npx yarn` ou `npx yarn install`.
+4. Lancer le serveur avec la commande `yarn dev` ou `npx yarn dev`.
+5. Le serveur sera accessible sur le port `8080`.
+
+**Lancement du client**
+
+1. Ouvrir un terminal dans le dossier `client`.
+2. Installer les dépendances avec la commande `yarn` ou `yarn install`.
+3. Si Yarn n'est pas installé, utiliser `npx yarn` ou `npx yarn install`.
+4. Lancer le client avec la commande `yarn dev` ou `npx yarn dev`.
+5. Ouvrir l'URL indiquée dans le terminal dans un navigateur web.
+6. L'application sera accessible à l'adresse `http://localhost:5173/`.
+
 **Fonctionnalités**
 
 * **Système d'authentification sécurisé et personnalisable** pour l'inscription et la connexion des utilisateurs.
